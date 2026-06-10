@@ -11,7 +11,7 @@ What are functions in this win32 calculaor?
 3. keyboard input supported
 4. fully AI
 
-Why I need win32_calculator?
+Why do I need win32_calculator?
 -
 1. it solves math problems
 2. it's very tiny
