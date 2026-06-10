@@ -1,6 +1,6 @@
 What is this repository?
 -
-Frankly speaking,this win32 calculator is fully written by claude haiku 4.5 .<br>
+Frankly speaking, this win32 calculator is fully written by claude haiku 4.5 .<br>
 I started this project only to practice my AI skills. <br>
 If there are any inconveniences that I have created, I will be soooo sorry.<br>
 
