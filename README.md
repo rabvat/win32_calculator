@@ -1,3 +1,7 @@
+win32_calculator
+-
+<img width="336" height="418" alt="QQ_1781107981718" src="https://github.com/user-attachments/assets/e4acef59-3843-4653-ba32-5da94d4f63ce" />
+
 What is this repository?
 -
 Frankly speaking, this win32 calculator is fully written by claude haiku 4.5 .<br>
