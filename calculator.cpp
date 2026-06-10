@@ -411,7 +411,32 @@ void UpdateDisplay()
 {
     if (hwndDisplay)
     {
-        string display = currentInput.empty() ? to_string_custom((int)currentValue) : currentInput;
+        string display = "";
+        
+        if (!operation.empty())
+        {
+            // Show: currentValue + currentInput
+            string val1 = to_string_custom((int)currentValue);
+            // Remove trailing zeros after decimal
+            size_t pos = val1.find_last_not_of('0');
+            if (pos != string::npos && val1[pos] != '.')
+                val1.erase(pos + 1);
+            else if (pos != string::npos && val1[pos] == '.')
+                val1.erase(pos);
+            
+            display = val1 + " " + operation + " ";
+            if (!currentInput.empty())
+                display += currentInput;
+        }
+        else if (!currentInput.empty())
+        {
+            display = currentInput;
+        }
+        else
+        {
+            display = to_string_custom((int)currentValue);
+        }
+        
         SetWindowText(hwndDisplay, display.c_str());
     }
 }
@@ -445,6 +470,7 @@ void PerformOperation(const string& op)
     }
     operation = op;
     shouldResetDisplay = true;
+    UpdateDisplay();
 }
 
 void RefreshWindow(HWND hwnd)
