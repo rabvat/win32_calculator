@@ -2,11 +2,11 @@ win32_calculator
 -
 <img width="336" height="418" alt="QQ_1781107981718" src="https://github.com/user-attachments/assets/e4acef59-3843-4653-ba32-5da94d4f63ce" />
 
-What is this repository?
+About this repository?
 -
-Frankly speaking, this win32 calculator is fully written by claude haiku 4.5 .<br>
+This calculator is fully written by claude haiku 4.5 .<br>
 I started this project only to practice my AI skills. <br>
-If there are any inconveniences that I have created, I will be soooo sorry.<br>
+If there are any inconveniences that I have created, I will be so sorry and take immediate action to fix it.<br>
 
 What are functions in this win32 calculaor?
 -
@@ -28,6 +28,5 @@ I not gonna contribute any codes from now on, so there will be no fixes or updat
 
 How to compile it?
 -
-First, DO NOT USE DEV C++!!!<br>
-use TDM-GCC 4.9.2 like a real man instead.<br><br>
+Use TDM-GCC 4.9.2 .<br><br>
 *g++.exe calculator.cpp -o calculator.exe -mwindows -luser32 -lgdi32 2>&1*<br>
