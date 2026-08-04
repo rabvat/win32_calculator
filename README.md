@@ -17,7 +17,7 @@ Why do I need win32_calculator?
 
 Future of this repository?
 -
-I not gonna contribute any codes from now on, so there will be no fixes or updates to this calculator.
+I not gonna contribute any codes from now on, so there will be no fix or update to this calculator.
 
 How to compile it?
 -
