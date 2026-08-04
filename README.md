@@ -2,12 +2,6 @@ win32_calculator
 -
 <img width="336" height="418" alt="QQ_1781107981718" src="https://github.com/user-attachments/assets/e4acef59-3843-4653-ba32-5da94d4f63ce" />
 
-About this repository?
--
-This calculator is fully written by claude haiku 4.5 .<br>
-I started this project only to practice my AI skills. <br>
-If there are any inconveniences that I have created, I will be so sorry and take immediate action to fix it.<br>
-
 What are functions in this win32 calculaor?
 -
 1. solve math problems of course
@@ -20,7 +14,6 @@ Why do I need win32_calculator?
 1. it solves math problems
 2. it's very tiny
 3. idk pls use it
-4. proves AI are powerful
 
 Future of this repository?
 -
